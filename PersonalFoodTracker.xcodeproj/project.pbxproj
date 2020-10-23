@@ -13,6 +13,9 @@
 		3CB52FB7253F38710017E25C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CB52FB5253F38710017E25C /* Main.storyboard */; };
 		3CB52FB9253F38710017E25C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CB52FB8253F38710017E25C /* Assets.xcassets */; };
 		3CB52FBC253F38710017E25C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CB52FBA253F38710017E25C /* LaunchScreen.storyboard */; };
+		3CB52FC4253F387F0017E25C /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB52FC3253F387F0017E25C /* Person.swift */; };
+		3CB52FC6253F3F950017E25C /* OnBoardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB52FC5253F3F950017E25C /* OnBoardingViewController.swift */; };
+		3CDA696C2542C400004633C5 /* CustomCellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDA696B2542C400004633C5 /* CustomCellViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		3CB52FB8253F38710017E25C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3CB52FBB253F38710017E25C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3CB52FBD253F38710017E25C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CB52FC3253F387F0017E25C /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Person.swift; path = ../../PersonalFT/PersonalFT/Models/Person.swift; sourceTree = "<group>"; };
+		3CB52FC5253F3F950017E25C /* OnBoardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingViewController.swift; sourceTree = "<group>"; };
+		3CDA696B2542C400004633C5 /* CustomCellViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCellViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +62,16 @@
 		3CB52FAE253F38710017E25C /* PersonalFoodTracker */ = {
 			isa = PBXGroup;
 			children = (
+				3CB52FC3253F387F0017E25C /* Person.swift */,
 				3CB52FAF253F38710017E25C /* AppDelegate.swift */,
 				3CB52FB1253F38710017E25C /* SceneDelegate.swift */,
 				3CB52FB3253F38710017E25C /* ViewController.swift */,
-				3CB52FB5253F38710017E25C /* Main.storyboard */,
+				3CB52FC5253F3F950017E25C /* OnBoardingViewController.swift */,
 				3CB52FB8253F38710017E25C /* Assets.xcassets */,
+				3CB52FB5253F38710017E25C /* Main.storyboard */,
 				3CB52FBA253F38710017E25C /* LaunchScreen.storyboard */,
 				3CB52FBD253F38710017E25C /* Info.plist */,
+				3CDA696B2542C400004633C5 /* CustomCellViewController.swift */,
 			);
 			path = PersonalFoodTracker;
 			sourceTree = "<group>";
@@ -139,8 +148,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				3CB52FB4253F38710017E25C /* ViewController.swift in Sources */,
+				3CDA696C2542C400004633C5 /* CustomCellViewController.swift in Sources */,
 				3CB52FB0253F38710017E25C /* AppDelegate.swift in Sources */,
+				3CB52FC4253F387F0017E25C /* Person.swift in Sources */,
 				3CB52FB2253F38710017E25C /* SceneDelegate.swift in Sources */,
+				3CB52FC6253F3F950017E25C /* OnBoardingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
