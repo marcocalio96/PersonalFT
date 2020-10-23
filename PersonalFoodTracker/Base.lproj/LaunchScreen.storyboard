@@ -16,7 +16,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="flame" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="ymL-Ay-cog">
-                                <rect key="frame" x="115" y="280" width="185" height="336"/>
+                                <rect key="frame" x="114.5" y="284.5" width="185" height="336"/>
                                 <color key="tintColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="185" id="XUV-4G-Z3O"/>
@@ -32,10 +32,9 @@
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Mgc-f2-RGh" secondAttribute="bottom" id="Byg-0t-k95"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ymL-Ay-cog" secondAttribute="trailing" constant="114" id="D7y-ZK-i3u"/>
-                            <constraint firstItem="ymL-Ay-cog" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="237" id="SUL-Wj-3Kl"/>
+                            <constraint firstItem="ymL-Ay-cog" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="PK3-Vz-rdW"/>
                             <constraint firstItem="Mgc-f2-RGh" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="gGQ-WS-CMi"/>
-                            <constraint firstItem="ymL-Ay-cog" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="115" id="jdq-Xe-tIV"/>
+                            <constraint firstItem="ymL-Ay-cog" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="lRu-VH-EbE"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
