@@ -23,18 +23,18 @@
                                     <constraint firstAttribute="height" constant="335.5" id="u26-e1-gij"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Personal" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mgc-f2-RGh">
-                                <rect key="frame" x="145.5" y="826" width="123" height="36"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Personal Food Tracker" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mgc-f2-RGh">
+                                <rect key="frame" x="52" y="826" width="310" height="36"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Mgc-f2-RGh" secondAttribute="bottom" id="Byg-0t-k95"/>
                             <constraint firstItem="ymL-Ay-cog" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="PK3-Vz-rdW"/>
-                            <constraint firstItem="Mgc-f2-RGh" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="gGQ-WS-CMi"/>
+                            <constraint firstItem="Mgc-f2-RGh" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="ZJ3-kq-eWo"/>
                             <constraint firstItem="ymL-Ay-cog" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="lRu-VH-EbE"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Mgc-f2-RGh" secondAttribute="bottom" id="or4-xx-QXZ"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
